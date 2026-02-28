@@ -373,23 +373,22 @@ export const LandingPage = ({ onGetStarted }: { onGetStarted: () => void }) => {
               </motion.div>
               
               <h1 
-                className="text-5xl lg:text-7xl font-bold leading-tight mb-6"
-                style={{ color: colors.darkNavy }}
-              >
-                Collect Better{' '}
-                <span 
-                  className="inline-block"
-                  style={{ 
-                    background: `linear-gradient(135deg, ${colors.mediumPurple}, ${colors.deepPurple})`,
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    backgroundClip: 'text'
-                  }}
-                >
-                  Feedback
-                </span>
-                {' '}Effortlessly
-              </h1>
+  className="text-5xl lg:text-7xl font-bold leading-tight mb-6"
+  style={{ color: colors.darkNavy }}
+>
+  Student Feedback System
+  <br />
+  <span 
+    style={{ 
+      background: `linear-gradient(135deg, ${colors.mediumPurple}, ${colors.deepPurple})`,
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor: 'transparent',
+      backgroundClip: 'text'
+    }}
+  >
+    v1.0 - Live!
+  </span>
+</h1>
               
               <p 
                 className="text-xl mb-10 leading-relaxed max-w-lg"
